@@ -21,11 +21,15 @@
     background-color: #490909;
 }
 
-.bg-img-set1 {
+/* .bg-img-set1 {
     background-image: url("images/img1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+} */
+
+.bg-sect1  > img {
+    height: 100%;
 }
 
 .bg-sect1-rigth {
@@ -66,12 +70,25 @@ body {
     .sect1 {
         height: 200vh;
     }
+
+    .bg-img-set1{
+        height:60% !important;
+    }
+
+    .sect2 {
+        margin-top: -150px;
+    }
 }
 
 @media screen and (max-width:340px) {
     .sect1 {
         height: 300vh;
     }
+
+    .bg-img-set1{
+        height:40% !important;
+    }
+   
 }
 
 @media screen and (max-width:318px) {
